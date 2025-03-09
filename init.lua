@@ -1022,3 +1022,10 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+----- Additions/Changes to original config above -----
+-- NO Wrapping!! --
+vim.opt.wrap = false
+
+-- Relative side numbers 
+vim.opt.relativenumber = true
